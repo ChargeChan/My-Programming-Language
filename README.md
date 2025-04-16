@@ -33,14 +33,16 @@ Ultimate is a stack-based esoteric programming language inspired by [BeeScript](
 | number | adds user input to the stack as an int |
 | char | adds user input to the stack as a single char |
 | stringArray | pushes each character the user typed into the stack in the order typed |
+ex: `PROMPT number` will stop the code to ask for user input
+
 
 ## Variables
-Two kinds of variables: Standard python variables and integers
-Here's how to assign a value to a variable in some different ways
+Two kinds of variables: Standard python variables and integers.
+Here's how to assign a value to a variable in some different ways  
 `var awesome = swag`
 `int counter =1`
-`var message =i love you`
-It will automatically truncate any spaces inbetween the = and after your input
+`var message =i love you`  
+It will automatically truncate any spaces in between the = and after your input
 
 ## Timestamps
 Timestamps are just labels like in Assembly
@@ -51,24 +53,3 @@ You make them like this:
 You can leave a comment using this symbol: 
 Because I thought it'd be funny if most people in my class couldn't type that easily but I could
 
-
-### Here are some examples of code inputs and outputs:
-
-`python ultimate.py examples/reversestring.ulti` <br>
-a<br>
-s<br>
-d<br>
-f<br>
-<br>
-fdsa<br>
-
-`python ultimate.py examples/cat.ulti` <br>
-a<br>
-a<br>
-
-Note on `cat`: because it only accepts 1 character at a time, it can only print one character.
-
-`python ultimate.py examples/repeater.ulti`<br>
-a<br>
-4<br>
-aaaa<br>
