@@ -1,6 +1,6 @@
 # EpicSwag
 
-Ultimate is a stack-based esoteric programming language inspired by [BeeScript](https://esolangs.org/wiki/BeeScript).
+This language (idk what to name it) is an esoteric programming language inspired by [BeeScript](https://esolangs.org/wiki/BeeScript) and also my insane mind.
 
 | Instruction | Description |
 | ------ | ------ |
@@ -32,16 +32,18 @@ Ultimate is a stack-based esoteric programming language inspired by [BeeScript](
 | string | adds user input to the stack as a string, includes all white space |
 | number | adds user input to the stack as an int |
 | char | adds user input to the stack as a single char |
-| stringArray | pushes each character the user typed into the stack in the order typed |
+| stringArray | pushes each character the user typed into the stack in the order typed |  
 ex: `PROMPT number` will stop the code to ask for user input
 
 
 ## Variables
 Two kinds of variables: Standard python variables and integers.
 Here's how to assign a value to a variable in some different ways  
-`var awesome = swag`
-`int counter =1`
-`var message =i love you`  
+```
+var awesome = swag
+int counter =1
+var message =i love you
+```
 It will automatically truncate any spaces in between the = and after your input
 
 ## Timestamps
@@ -50,6 +52,6 @@ You make them like this:
 `!label`
 
 ## Comments
-You can leave a comment using this symbol: 
+You can leave a comment using this symbol:   
 Because I thought it'd be funny if most people in my class couldn't type that easily but I could
 
