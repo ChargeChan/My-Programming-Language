@@ -32,7 +32,8 @@ This language (idk what to name it) is an esoteric programming language inspired
 | string | adds user input to the stack as a string, includes all white space |
 | number | adds user input to the stack as an int |
 | char | adds user input to the stack as a single char |
-| stringArray | pushes each character the user typed into the stack in the order typed |  
+| stringArray | pushes each character the user typed into the stack in the order typed |<br>
+
 ex: `PROMPT number` will stop the code to ask for user input
 
 
